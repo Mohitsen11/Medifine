@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 0 5%;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    transition-property: color;
+    transition-duration: 0.4s;
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+    color: rgb(32, 188, 126);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+img[alt="logo"]{
+    width: 150px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+main section{
+    width: 50%;
+}
+
+.angles{
+    width: 25px;
+}
+
+main .left-part{
+    margin-left: 5%;
+    position: relative;
+}
+
+.left-part h1{
+    font-size: 70px;
+    line-height: 94px;
+}
+
+.left-part  p{
+    font-size: 18px;
+    color: grey;
+    margin: 20px 0px;
+}
+
+button{
+    padding: 15px 40px;
+    border-radius: 16px;
+    background-color: #20bc7e;
+    color: #fff;
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.stethoscope{
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -25%;
+    z-index: -1;
+}
+
+.mouse{
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+}
+
+.green-box , .yellow-box{
+    position: absolute;
+    right: 0;
+}
+
+.green-box{
+    width: 35%;
+    bottom: 30px;
+}
+
+.yellow-box{
+    width: 30%;
+    bottom: 50px;
+}
+
+.doctor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+}
+
+.bottom-angle{
+    position: absolute;
+    right: 25px;
+}

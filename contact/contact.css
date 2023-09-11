@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 0 5%;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    transition-property: color;
+    transition-duration: 0.4s;
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+    color: rgb(32, 188, 126);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+img[alt="logo"]{
+    width: 150px;
+}
+
+main{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px #000;
+    gap: 15px;
+}
+
+form h1{
+    text-align: center;
+}
+
+form label{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+form div input{
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+form div textarea{
+    resize: none;
+    padding: 5px 10px;
+    border: transparent;
+    border-radius: 10px;
+    height: 100px;
+}
+
+form button{
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(32, 188, 126);
+    border: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
